@@ -1,0 +1,93 @@
+databaseChangeLog:
+  - changeSet:
+        id: 20260411.1320
+        author: 222754@edu.fa.ru
+        changes:
+            - sqlFile:
+                  path: sql/20260411.1320-create-schema-data.sql
+                  relativeToChangelogFile: true
+  - changeSet:
+      id: 20260411.1338
+      author: 222754@edu.fa.ru
+      changes:
+        - sqlFile:
+            path: sql/20260411.1338-create-table-user.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 20260417.0926
+      author: 222754@edu.fa.ru
+      changes:
+        - sqlFile:
+            path: sql/20260417.0926-create-table-refresh-tokens.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 20260417.2315
+      author: 222754@edu.fa.ru
+      changes:
+        - sqlFile:
+            path: sql/20260417.2315-create-table-password-reset-tokens.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 20260420.1523
+      author: 222754@edu.fa.ru
+      changes:
+        - sqlFile:
+            path: sql/20260420.1523-create-table-task.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 20260420.1525
+      author: 222754@edu.fa.ru
+      changes:
+        - sqlFile:
+            path: sql/20260420.1525-create-table-event.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 20260420.2115
+      author: 222754@edu.fa.ru
+      changes:
+        - sqlFile:
+            path: sql/20260420.2115-create-table-goal.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 20260422.0809
+      author: 222754@edu.fa.ru
+      changes:
+        - sqlFile:
+            path: sql/20260422.0809-create-table-user-progress.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 20260422.1230
+      author: 222754@edu.fa.ru
+      changes:
+        - sqlFile:
+            path: sql/20260422.1230-create-table-user-achievement.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 20260425.1010
+      author: 222754@edu.fa.ru
+      changes:
+        - sqlFile:
+            path: sql/20260425.1010-create-table-journal-entries.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 20260429.0637
+      author: 222754@edu.fa.ru
+      changes:
+        - sqlFile:
+            path: sql/20260429.0637-create-table-tracker.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 20260429.1115
+      author: 222754@edu.fa.ru
+      changes:
+        - sqlFile:
+            path: sql/20260429.1115-create-table-tracker-progress.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 20260501.1947
+      author: 222754@edu.fa.ru
+      changes:
+        - sqlFile:
+            path: sql/20260501.1947-create-table-food-entries.sql
+            relativeToChangelogFile: true
+
